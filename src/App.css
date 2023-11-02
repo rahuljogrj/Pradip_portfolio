@@ -1,0 +1,87 @@
+/* index.html */
+nav {
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 2px 2px 0px rgb(145, 137, 137);
+  z-index: 1;
+}
+
+.social-icons .fa {
+  font-size: 25px;
+  color: rgb(51, 47, 47);
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.nav-item a:hover,
+a:hover {
+  border-bottom: 2px solid rgb(165, 165, 180);
+  transition: 0.5s;
+  color: rgb(59, 190, 7);
+  font-size: 17px;
+}
+
+
+li:hover {
+  box-shadow: 1px 1px px 1px black;
+
+}
+
+.nav-item a {
+  font-size: 16px;
+  color: rgb(37, 34, 34);
+  font-weight: 600;
+}
+
+.fa {
+  transition: scale 1s;
+
+}
+
+.fa:hover {
+  /* transform: scale(1.1); */
+  scale: 130%;
+  color: rgb(20, 22, 146)
+}
+
+.viewproject {
+  background: transparent;
+}
+
+.viewproject:hover {
+  background: rgb(218, 216, 216);
+  border-radius: 30px;
+  transition: 0.5s;
+  color: rgb(9, 9, 153);
+  box-shadow: 1px 1px 1xp 1px black;
+}
+
+.hr {
+  border: 1px solid rgb(190, 184, 184);
+  opacity: 1;
+}
+
+
+p {
+  font-size: medium;
+  color: rgb(170, 155, 155);
+  text-align: justify;
+}
+
+
+
+
+.wrapper {
+  overflow: hidden;
+}
+
+.wrapper img {
+  transition: scale 1s
+}
+
+.wrapper:hover img {
+  scale: 110%;
+}
